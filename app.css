@@ -1,0 +1,31 @@
+h1 {
+
+    animation: colorch 3s linear 0s infinite alternate;
+    color : rgb(0, 0, 0);
+    padding: 10px 0 0 0;
+    background: grey;
+    text-align : center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 50px;
+    text-transform: uppercase;
+}
+
+p{
+    
+    color: white;
+    margin : 0 100px 0 100px;
+}
+
+body{
+    background-color: black;
+    font-family: Merriweather;
+}
+
+@keyframes colorch{
+
+    0%   {background-color: rgb(89, 147, 255);}
+  25%  {background-color: rgb(216, 89, 255);}
+  50%  {background-color: rgb(255, 89, 144);}
+  75%  {background-color: rgb(255, 100, 89);}
+  100% {background-color: rgb(255, 189, 89);}
+}
